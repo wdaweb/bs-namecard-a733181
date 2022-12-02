@@ -1,0 +1,57 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.main {
+  height: 100vh;
+}
+.fs-big {
+  font-size: 70px;
+}
+.w-fit {
+  width: fit-content;
+}
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.card {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+.box-line {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  background-color: bisque;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.box-line-start {
+  top: 586px;
+  left: 116px;
+  transform: rotate(230deg);
+}
+.box-line::before {
+  content: '';
+  position: absolute;
+  top: -47px;
+  left: -29px;
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  /* background-color: aqua; */
+}
+.box-line-end {
+  top: 312px;
+  right: 112px;
+  transform: rotate(50deg);
+}
+@media (min-width: 1400px) {
+  .box-line {
+    display: block;
+  }
+  .card {
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+  }
+}
