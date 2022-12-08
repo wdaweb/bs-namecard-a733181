@@ -1,7 +1,7 @@
 body {
   font-family: 'Noto Sans TC', sans-serif;
 }
-.main {
+.h-full {
   height: 100vh;
 }
 .fs-big {
@@ -28,8 +28,8 @@ body {
   display: none;
 }
 .box-line-start {
-  top: 586px;
-  left: 116px;
+  top: 562px;
+  left: 133px;
   transform: rotate(230deg);
 }
 .box-line::before {
@@ -43,8 +43,8 @@ body {
   /* background-color: aqua; */
 }
 .box-line-end {
-  top: 312px;
-  right: 112px;
+  top: 332px;
+  right: 135px;
   transform: rotate(50deg);
 }
 @media (min-width: 1400px) {
